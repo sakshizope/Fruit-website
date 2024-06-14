@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.left-col{
+    flex-basis: 50%;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.right-col{
+    flex-basis: 50%;
+    background-color: #ff7878;
+    position: relative;
+}
+
+.logo{
+    width: 80px;
+    margin: 30px 80px;
+}
+
+.content-box{
+    width: 290px;
+    position: absolute;
+    top: 170px;
+    left: 80px;
+}
+
+.rating{
+    width: 90px;
+}
+
+.content-box h1{
+    font-size: 2.5rem;
+    margin: 15px 0 30px;
+    font-weight: 600;
+}
+
+.content-box p{
+    font-size: 1rem;
+    color: #949494;
+    line-height: 25px;
+    margin-bottom: 80px;
+}
+
+.content-box button{
+    background-color: #ff8787;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    padding: 13px 26px;
+    cursor: pointer;
+}
+
+.content-box button img{
+    width: 35px;
+    margin-left: 20px;
+}
+
+.left-arrow{
+    width: 67px;
+    position: absolute;
+    bottom: -87px;
+    right: -106%;
+}
+
+.navbar{
+    width: 80%;
+    margin: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255,  255, 0.3);
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+
+.search-box input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 1rem;
+}
+
+input::placeholder{
+    color: #FFF;
+    font-size: 0.8rem;
+}
+
+.search-box img{
+    width: 1.1rem;
+    margin-left: 20px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li img{
+    width: 0.9rem;
+    margin-right: 0.9rem;
+}
+
+.more-items{
+    width: 220px;
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    right: 100px;
+}
+
+.more-items img{
+    width: 220px;
+    margin: 10px 0;
+}
+
+.right-arrow{
+    width: 65px;
+    position: absolute;
+    bottom: 15px;
+    right: 90%;
+}
+
+.main-img{
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -45%);
+}
